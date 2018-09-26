@@ -1,0 +1,525 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+html {
+    scroll-behavior: smooth;
+} 
+/* Nav Bar Styling starts here */
+.sidenav {
+    height: 100%;
+    width: 170px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-image: linear-gradient(#232526 ,white) ;
+    /* overflow-x: hidden; */
+    padding-top: 20px;
+    opacity: 0.8;
+
+
+}
+.sidenav a{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.sidenav a:hover {
+    color: red;
+}
+
+.sidenav a:active {
+    color: red;
+}
+/* Nav bar styling ends here */
+
+/* Main page styling starts here */
+
+main{
+    max-width: 100%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg-header {
+    background-image: url(../img/Codingimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}
+.name {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: white;
+    padding-top: 10%;
+    padding-left: 5%;
+    letter-spacing: 5px;
+    font-size: 50px;
+    margin-top: 0;
+
+}
+.junior {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: white;
+    letter-spacing: 5px;
+    padding-left: 5%;
+    font-size: 20px;
+
+}
+.myimage {
+    width: 340px;
+    height: 310px;
+    margin-left: 5%;
+    border-radius: 50%;
+}
+
+
+/* Main page styling ends here */
+
+/* About Me starts here */
+
+.aboutme {
+    background-image: url(../img/texture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 100%;
+    height: 100vh;
+    color: whitesmoke;
+    letter-spacing: 0px;
+    margin: 0;
+}
+
+
+.middle {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family:  Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: absolute;
+    line-height: 27px;
+    letter-spacing: 2px;
+    width: 25%;
+    margin-left: 430px;
+    margin-top: 100px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.left-side {
+    float: left;
+    margin: 0;
+    font-family:  Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 20px;
+    letter-spacing: 2px;
+    position: absolute;
+    margin-top: 40px;
+}
+
+
+.right-side {
+    padding: 15px;
+    font-family:  Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: absolute;
+    line-height: 20px;
+    letter-spacing: 2px;
+    width: 25%;
+    margin-left: 60%;
+    margin-top: 80px;
+
+}
+
+/* Social Icon Styling Starts Here */
+
+.icons li {
+    list-style-type: none ;
+
+}
+
+.icons li img {
+    width: 40px;
+    padding-top: 50px;
+    padding-left: 60px;
+    transition: transform .2s;
+
+}
+
+.icons img:hover{
+   transform: scale(1.2);
+}
+
+.icons label {
+    padding-left: 60px;
+    padding-top: 20px;
+    display: block;
+}
+
+
+
+/* Social icon styling ends here */
+
+/* Skills starts here */
+
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding: 10px;
+  color: white;
+}
+
+.html {
+    width: 100%;
+    background-image: linear-gradient(#360033, #0b8793)
+}
+
+.css {
+    width: 100%;
+    background-image: linear-gradient(#948E99, #2E1437)
+}
+
+.js {
+    width: 100%;
+    background-image: linear-gradient(#73C8A9, #373B44)
+}
+
+.php {
+    width: 100%;
+    background-image: linear-gradient(#870000, #190a05)
+}
+/* Skills ends here */
+
+
+/* About me ends here */
+
+/* Education starts here */
+
+.educate {
+    max-width: 100%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/texture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family:  Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: whitesmoke;
+    padding-left: 5%;
+
+}
+
+.edu {
+    margin: 0;
+    padding-top: 8%;
+}
+
+table {
+    font-size: 20px;
+}
+
+
+
+.info {
+    width: 45%;
+    position: relative;
+}
+
+
+.info2{
+    width: 95%;
+    position: relative;
+
+}
+
+
+/* Education ends here */
+
+/* Experience starts here */
+
+.experia {
+    max-width: 100%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/texture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family:  Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: whitesmoke;
+    padding-left: 5%;
+}
+
+.experia {
+    margin: 0;
+    padding-top: 8%;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.exp {
+   width: 80%;
+
+
+}
+
+.experience {
+    padding-top: 8%;
+}
+
+.exp1 {
+    width: 42%;
+}
+
+/* Experience ends here */
+
+/* Contact starts here */
+
+.con {
+    max-width: 100%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/texture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family:  Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: whitesmoke;
+    margin: 0;
+    padding-top: 8%;
+    padding-right: 60%;
+}
+
+.contact {
+
+    padding-top: 40%;
+
+}
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon {
+    padding: 10px;
+    background: black;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px solid black;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+/* Contact ends here */
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: #4d4d4d;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    /* overflow-y: hidden; */
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) + .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked + .nav-links {
+    height: calc(100vh - 50px);
+    /* overflow-y: auto; */
+  }
+}
+.desktop-hidden{
+  display: none;
+  visibility: hidden;
+}
+@media only screen and (max-width: 600px) {
+.mobile-hidden{
+  display: none;
+  visibility: hidden;
+}
+.desktop-hidden{
+  display: block;
+  visibility: visible;
+}
+
+
+.middle {
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family:  Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    line-height: 27px;
+    letter-spacing: 2px;
+    width: 50vh;
+    margin-left: 20px;
+    margin: 10px;
+    margin-top: 100px;
+    border-left: none;
+    border-right: none;
+}
+
+.left-side {
+    float: none;
+    margin: 0;
+    font-family:  Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 20px;
+    letter-spacing: 2px;
+    position: relative;
+    margin-top: 40px;
+}
+
+
+.right-side {
+    padding: 0px;
+    font-family:  Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+    line-height: 20px;
+    letter-spacing: 2px;
+    width: 100vh;
+    margin-left: 0%;
+    margin-top: 80px;
+
+}
+h1{
+  text-align: center;
+}
+.info{
+  width: 100%;
+}
+.exp{
+width: 100%;
+}
+table{
+  font-size: 14px;
+  line-height: 2em;
+}
+.aboutme {
+    background-image: url(../img/texture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    color: whitesmoke;
+    letter-spacing: 0px;
+    margin: 0;
+}
+.contact{
+  text-align: center;
+}
+.input-field {
+    width: 550px;
+    padding: 10px;
+    outline: none;
+}
+.junior{
+  text-align: center;
+}
+}
